@@ -1,0 +1,24 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "description": "RabbitMQ is an open-source message broker with advanced message queuing protocol. It gives your application a common platform to send and receive messages.",
+  "main": "index.js",
+  "scripts": {
+    "publish": "node publisher.js",
+    "consume": "node consumer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firstneverrest/RabbitMQ-Tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/firstneverrest/RabbitMQ-Tutorial/issues"
+  },
+  "homepage": "https://github.com/firstneverrest/RabbitMQ-Tutorial#readme",
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  }
+}
